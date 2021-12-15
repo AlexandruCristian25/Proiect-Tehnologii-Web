@@ -44,6 +44,6 @@ Ca baza de date a fost aleasa MariaDB.
 
 Pentru testarea proiectului cititi "Instructiuni_testare_backend.md"
 
-
+a
 
 	
