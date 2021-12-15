@@ -105,16 +105,18 @@ router.get('/calendarList', function(req, res, next) {
                             });
                         }});
                 });
+
+                CalendarList.findAll({
+                    include: [{
+                        model: Calendar
+                    }]
+                }).then((calendars)=> {
+                    res.json(calendars);
+                });
             }
         });
 
-        CalendarList.findAll({
-            include: [{
-                model: Calendar
-            }]
-        }).then((calendars)=> {
-            res.json(calendars);
-        });
+
     }
 });
 

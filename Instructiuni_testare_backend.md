@@ -18,3 +18,5 @@ Pre-requisite: Instalarea aplicatiei POSTMAN, de aici: https://dl.pstmn.io/downl
 10. Se apeleaza in POSTMAN POST localhost:3000/api/events/event/{{calendarId}} cu obiectul model pentru crearea unui eveniment de test (7 se pot modifica datele din json )
 11. Se apeleaza in POSTMAN PUT localhost:3000/api/events/event/{{calendarId}}/{{eventId}} pentru actualizarea evenimentului cu id-ul din URL si obiectul mentionat ( vezi punctul 9 )
 12. Se apeleaza in POSTMAN DELETE localhost:3000/api/events/event/{{calendarId}}/{{eventId}} pentru stergerea evenimentului cu id-ul din URL
+
+rutele trebuie apelate de 2x pentru a obtine rezultatele actualizate
