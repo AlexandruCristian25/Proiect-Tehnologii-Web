@@ -1,0 +1,8 @@
+const config = {
+    google:{
+        clientID: "115726424086-7octbffb3rh588ap578stn28r3r7eik1.apps.googleusercontent.com",
+        clientSecret: "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"
+    }
+}
+
+module.exports = config;
