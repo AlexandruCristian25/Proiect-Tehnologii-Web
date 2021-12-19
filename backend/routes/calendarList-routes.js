@@ -54,7 +54,7 @@ var refreshToken = function (req, res, next) {
 router.use(refreshToken);
 
 
-router.get('/calendarList', function(req, res, next) {
+router.get('/calendarList', function(req, rs, next) {
     if(typeof req.user !== 'undefined'){
 
         var accessToken = req.user.accessToken;
@@ -111,7 +111,7 @@ router.get('/calendarList', function(req, res, next) {
                         model: Calendar
                     }]
                 }).then((calendars)=> {
-                    res.json(calendars);
+                    rs.json(calendars);
                 });
             }
         });

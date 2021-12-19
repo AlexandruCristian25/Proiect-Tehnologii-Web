@@ -91,7 +91,7 @@ module.exports = (sequelize, DataTypes) => {
         },
         attendees: {
             type:DataTypes.JSON,
-            allowNull: false
+            allowNull: true
         },
         attendeesOmitted: {
             type:DataTypes.BOOLEAN,

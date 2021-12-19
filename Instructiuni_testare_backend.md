@@ -13,9 +13,9 @@ Pre-requisite: Instalarea aplicatiei POSTMAN, de aici: https://dl.pstmn.io/downl
 5. In POSTMAN se importa colectia de apeluri: Appointment Manager.postman_collection.json
 6. Se apeleaza in POSTMAN localhost:3000/api/calendarList pentru popularea cu calendarele google la care utilizatorul are dreptul ( pe baza de gmail )
 7. Se apeleaza in POSTMAN localhost:3000/api/calendarList/primary pentru a alege calendarul principal ca si exemplu
-8. Se apeleaza in POSTMAN GET localhost:3000/api/events/calendar/{{calendarId}} pentru listarea tuturor evenimentelor pe calendarul selectionat ( principal )
-9. Se apeleaza in POSTMAN GET localhost:3000/api/events/event/{{calendarId}}/{{eventId}} pentru luarea unui singur eveniment (eventId poate fi schimbat conform rezultatelor de la 7)
-10. Se apeleaza in POSTMAN POST localhost:3000/api/events/event/{{calendarId}} cu obiectul model pentru crearea unui eveniment de test (7 se pot modifica datele din json )
+8. Se apeleaza in POSTMAN POST localhost:3000/api/events/event/{{calendarId}} cu obiectul model pentru crearea unui eveniment de test (7 se pot modifica datele din json )
+9. Se apeleaza in POSTMAN GET localhost:3000/api/events/calendar/{{calendarId}} pentru listarea tuturor evenimentelor pe calendarul selectionat ( principal )
+10. Se apeleaza in POSTMAN GET localhost:3000/api/events/event/{{calendarId}}/{{eventId}} pentru luarea unui singur eveniment (eventId poate fi schimbat conform rezultatelor de la 7)
 11. Se apeleaza in POSTMAN PUT localhost:3000/api/events/event/{{calendarId}}/{{eventId}} pentru actualizarea evenimentului cu id-ul din URL si obiectul mentionat ( vezi punctul 9 )
 12. Se apeleaza in POSTMAN DELETE localhost:3000/api/events/event/{{calendarId}}/{{eventId}} pentru stergerea evenimentului cu id-ul din URL
 
