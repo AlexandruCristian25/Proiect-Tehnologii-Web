@@ -1,0 +1,34 @@
+{
+    "id": "23ca6320-0ffe-47a1-a850-7429a1b3307b",
+    "name": "fallback intent",
+    "auto": true,
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "input.unknown",
+        "affectedContexts": [],
+        "parameters": [],
+        "messages": [
+          {
+            "type": 0,
+            "lang": "en",
+            "speech": [
+              "Today Appointment",
+              "5 pm",
+              "Ready for meeting?",
+              "Do You want to make an appointment?",
+              "Select appointment"
+            ]
+          }
+        ],
+        "defaultResponsePlatforms": {},
+        "speech": []
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": true,
+    "events": []
+  }
